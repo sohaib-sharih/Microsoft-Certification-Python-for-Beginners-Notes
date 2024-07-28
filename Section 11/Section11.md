@@ -1,0 +1,33 @@
+<h1>Error Handling</h1>
+    <ol type="1">
+        <li><b>traceback</b> is the body of text that describes the <b>unhandled error.</b></li>
+        <li>Traceback starts with <i>order of the output</i>, then <i>it informs you that the file is stdin(input in the interactive terminal), </i> then <i>the error name (Exception).</i></li>
+        <li>Following is essentially what it entails: <br>
+        <img src="/images/11a.PNG" alt=""></li>
+        <li><b>How to handle an exception?
+            <ol type="a">
+                <li><b>try and except blocks</b></li>
+                <li>After the try keyword, you add code that has the potential to cause an exception. Next, you add the except keyword along with the possible exception, followed by any code that needs to run when that condition happens.</li>
+                <li>Example <br>
+                <img src="/images/11b.PNG" alt=""><br>
+            <img src="/images/11c.PNG" alt=""><br>
+        <img src="/images/11d.PNG" alt=""><br>
+    <img src="/images/11e.PNG" alt=""><br>
+<img src="/images/11f.PNG" alt=""><br>
+<img src="/images/11g.PNG" alt=""><br>
+<img src="/images/11h.PNG" alt=""><br>
+<img src="/images/11i.PNG" alt=""><br>
+<img src="/images/11j.PNG" alt=""></li>
+            </ol>
+        </b></li>
+        <li><b>Raise exceptions</b> <i>need to study this excersice</i></li>
+        <li></li>
+    </ol>
+
+<h1>Excercise</h1>
+    <ol>
+        <li><img src="/images/11k.PNG" alt=""></li>
+        <li><img src="/images/11l.PNG" alt=""></li>
+        <li><img src="/images/11m.PNG" alt=""></li>
+        <li><img src="/images/11n.PNG" alt=""></li>
+    </ol>

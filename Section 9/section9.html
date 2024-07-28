@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Section 9</title>
+</head>
+<body>
+    <h1>Dictionaries</h1>
+    <ol type="1">
+        <li><b>dictionaries</b> are made using <b>key/value pairs.</b> Each key is a <b>string literal.</b> and the name is also known as a <b>variable</b> that has a <b>value.</b></li>
+        <li>Think of it like a group of <b>variables</b> inside of a container, where the key is the name of the variable, and the value is the value stored inside it.</li>
+        <li>You have two keys, <b>'name'</b> and <b>'moons'</b>. Each key behaves in much the same way as a <b>variable:</b> they have a unique name, and they store a value. However, they're contained inside of a single, <b>larger variable</b>, named planet. Below is an example: <br>
+        <img src="/images/9a.PNG" alt=""></li>
+        <li><b>Get method</b> allows you to retrieve the value of a key you define, as long as it is available. If its not, then it will return <b>NONE</b>. If you use [] square brackets, then it will return a type error for a <b>Key that doesn't exist.</b></li>
+        <li>However, you can still retrieve the value from an <b>dictionary</b> using <b>square brackets[]</b> example, names['age'] and names.get('age') are both the same things.</li>
+        <li><b>Modifying dictionaries</b> using the <b>update method</b>, it helps to assign new <b>values</b> in <b>parameters.</b> This method accepts a dictionary as a <b>parameter.</b> Shown below example <br>
+        <img src="/images/9b.PNG" alt=""></li>
+        <li>Two methods for <b>updating a dictionary:</b>
+        <ol type="a">
+            <li><b>names.update({'key':'value'})</b></li>
+            <li><b>names['key'] = 'value <b>OR</b>  names['name'] = 'Sohaib Sharih'</b></li>
+        </ol></li>
+        <li><b>Key names</b> are case sensitive.</li>
+        <li><b>Adding new key values</b> can be done using any of the 2 methods mentioned previously as shown below: <br>
+        <img src="/images/9c" alt=""></li>
+        <li><b>pop()</b> method allows you to delete the last key/value pair. Shown below <br>
+        <img src="/images/9d.PNG" alt=""></li>
+        <li><b>Complex data types</b> you can add nested dictionaries within dictionary.</li>
+        <li>Below is an example of a <b>Nested Dictionary</b> and how to <b>retreive a nested dictionary</b> <br>
+        <img src="/images/9e.PNG" alt=""></li>
+        <li></li>
+    </ol>
+    <h1>Dynamic Programming with Dictionaries</h1>
+    <ol type="1">
+        <li><b>keys()</b> method allows you to retreive only all the keys of a dictionary.</li>
+        <li><b>Determine if a key exists</b> <i>All keys can be checked using <b>in</b> followed by the name of the dictionary.</i> Because when you use a <b>key</b> with a dictionary name, it will output the <b>value.</b> example print(names['car']) will print the value of the car. Below is an example <br>
+        <img src="/images/9f.PNG" alt=""></li>
+        <li><b>Retrieving all values from a dictionary:</b> you can retreive them by names.values(). If you use a for loop then it will look like this <br></li>
+    </ol>
+</body>
+</html>

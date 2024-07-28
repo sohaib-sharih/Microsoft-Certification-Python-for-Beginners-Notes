@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Using Strings in Python</title>
+</head>
+<body>
+    <h1>Using String in python</h1>
+    <ol type="1">
+        <li>A simple string is denoted by apostrophe ""</li>
+        <li>Strings in python are <b>immutable</b>, therefore if you want to change or modify an existing string, you can only do so by adding a new string to the existing <b>variable</b>, and then return the value to a <b>new variable by assigning a new variable.</b></li>
+        <li>If you want to use special characters or single apostrophe within a string, you can either have <b>double quotation marks</b> outside the string or vice versa. And if you require both <b>double and single</b> quotation marks within a string, then use """ <b>triple quotation marks to enclose the string.</b></li>
+        <li><b>Multiline</b>: you can use a <b>\n</b> to add the text in a new line, or simply enter to a new line without using \n, but only within <b>triple quotation marks.</b></li>
+        <li>There are various methods that work with strings such as <b>title()</b> that allows you to make your string sentence case, and <b>split()</b> that allows you to separate each word into a <b>list</b></li>
+        <li><b>Split() method</b> allows you to split every string of a variable that has a <i>space in between.</i></li>
+        <li><b>Search</b> you can search a word or character within a string without using a loop to check. example=> <i>print("moon" <b>in</b> "the moon shines brightly today.")</i></li>
+        <li><b>find() method</b> The .find() method returns a -1 when the word isn't found, or it returns the index (the number representing the place in the string).</b></li>
+        <li><b>count() method</b>allow python to ccount the number of times a word/string occurs.</li>
+        <li>Strings are <b>case sensitive</b>, which means that if you are trying to find a word that has capital letters, the output will be false, so you need to first use a method to convert string to <b>lower case by lower() or uppercase by upper() method.</b>, then define your search accordingly.</li>
+        <li><b>NOTE</b> To use index to find a word/string on a sentence variable, you can do the following
+        <ol type="a">
+            <li>use the split() method as split.(':'). When you use <b>colon split(':')</b>, the split method makes a list of aggregating all text into a list of items separated by <b>colon</b>.</li>
+            <li>Then use the variable name and index as abc[-1], to get the last word.</li>
+            <li>If you don't save the split value inside a new variable, then the index will only provide the last or first character depending on the position you have mentioned as index.</li>
+            <li>You can use <b>split method</b> to define what the method should find to split the string from that particular point, example previously we used a <b>colon</b>, now we can also use simple <b>spaces, dot, etc</b> as well. as shown below <br>
+            <img src="/images/5b.PNG" alt=""></li>
+
+        </ol></li>
+        <li><b>split method</b>: we can use it in a for loop as well as shown below: <br>
+        <img src="/images/5a.PNG" alt=""></li>
+        <li><b>isnumeric() and isdecimal()</b> these methods can help find numbers or values with a decimal.</li>
+        <li><b>endswith() and startswith()</b> methods can be used to identify characters, text or numbers, which will give an output of True or if stored inside a variable then will also <b>display the output.</b></li>
+        
+
+    </ol>
+
+    <h1>Transform Text</h1>
+    <ol type="1">
+        <li><b>.join() method</b> allows you to join back all <b>items</b>of the list split befor eusing the <b>split method</b>, to form one string again. And it is used in the following way: <br>
+        <img src="/5c.PNG" alt="">
+        <br>
+        <i>if you add a space in ' ', then it will add each <b>item of the list</b> inside the print string.</i>
+        </li>
+        <li><b>Note:</b> the '' quotes are used to print every item on the list.</li>
+        <li><b>replace()</b>method allows you to replace a string value with another value as shown below: <br>
+        </li>
+        <li><b>Join Method()</b> this is used to join a <b>list of items of a variable</b>, and you can also pass a character as an argument, example ' ', space or any other character that will come in between the list of items being joined together as shown below: <br>
+        <img src="/images/5f.PNG" alt=""></li>
+    </ol>
+
+    <h1>excersice</h1>
+    <ol>
+        <li>To find keywords: <br>
+        <img src="/images/5d.PNG" alt=""></li>
+        <li>The above excercise was done after storing a large sentence inside a variable called <b>text</b> then splitting it using <b>split method as split('. ')</b> so the dot can be found by the method then split from that point. And then a for loop was used to search through the <b>items</b> since the items were sentences split by the split method using the dot to find the end of each sentence in the paragraph of <b>text.</b></li>
+        <li></li>
+    </ol>
+
+    <h1>String Format</h1>
+    <ol type="1">
+        <li>Another way to write a variable value inside a string is by using <b>%s</b> within the string, then use % <variableName> outside the string. as follows: <br>
+        <img src="/images/5e.PNG" alt=""></li>
+        <li> You don't need to use a <b>function call</b> when using an f string, or <b>braces for expression.  Showb below: <br>
+        <img src="/images/5g.PNG" alt=""></b></li>
+        <li>Another example of an expression within a string, below <br>
+        <img src="/5h.PNG" alt=""></li>
+        <li><b>format method</b>, format method can be used use <b>variable names in expressions</b> within a string, and then assign the value of each variable separately, or assigned before. shown below <br>
+        <img src="/images/5i.PNG" alt=""></li>
+    </ol>
+    
+</body>
+</html>
